@@ -38,10 +38,10 @@ let studentiIminja = studenti
 console.log(studentiIminja)
 
 //? 4. Vkupen prosek na studenti koi se od Kumanovo
-console.log("Вкупен преосек на студенти кои се од Куманово :")
+console.log("Вкупен просек на студенти кои се од Куманово :")
 let studentiKumanovo = studenti
   .filter(student => student.grad == 'Kumanovo')
-  .reduce((sum, student) => sum + student.prosek, 0) / studenti.filter(student => student.grad === 'Kumanovo').length
+  .reduce((acc, student) => acc + student.prosek, 0) / studenti.filter(student => student.grad == 'Kumanovo').length
 console.log(studentiKumanovo)
 
 //? 5. Prosek na prosecite od gradovite Skopje i Ohrid
