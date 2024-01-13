@@ -1,0 +1,32 @@
+[
+    {
+        "ime": "Mirko",
+        "grad": "Kocani",
+        "prosek": 8.9
+    },
+    {
+        "ime": "Vesna",
+        "grad": "Vinica",
+        "prosek": 5.7
+    },
+    {
+        "ime": "Pece",
+        "grad": "Bitola",
+        "prosek": 5.2
+    },
+    {
+        "ime": "Trajan",
+        "grad": "Skopje",
+        "prosek": 6.1
+    },
+    {
+        "ime": "Ana",
+        "grad": "Ohrid",
+        "prosek": 7.6
+    },
+    {
+        "ime": "Marija",
+        "grad": "Kumanovo",
+        "prosek": 9.6
+    }
+]
