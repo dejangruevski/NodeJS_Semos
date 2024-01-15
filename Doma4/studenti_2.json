@@ -1,0 +1,32 @@
+[
+    {
+        "ime": "Bojan",
+        "prezime": "Petkovski",
+        "prosek": 6.2,
+        "grad": "Skopje"
+    },
+    {
+        "ime": "Vesna",
+        "prezime": "Angelevska",
+        "prosek": 9.7,
+        "grad": "Kumanovo"
+    },
+    {
+        "ime": "Atanas",
+        "prezime": "Kostovski",
+        "prosek": 10,
+        "grad": "Bitola"
+    },
+    {
+        "ime": "Elena",
+        "prezime": "Petrovska",
+        "prosek": 6.5,
+        "grad": "Ohrid"
+    },
+    {
+        "ime": "Toni",
+        "prezime": "Kocovski",
+        "prosek": 7.2,
+        "grad": "Krusevo"
+    }
+]
