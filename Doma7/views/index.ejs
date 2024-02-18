@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doma 7</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+  <h1>белешки</h1>
+  <form action="/dodajBeleska" method="post">
+    <input type="text" id="beleska" name="beleska" required>
+    <button type="submit">Додади белешка</button>
+  </form>
+  <ul>
+    <% beleski.forEach(beleska => { %>
+      <li><%=beleska%></li>
+    <% }); %>
+  </ul>
+</body>
+</html>
+
