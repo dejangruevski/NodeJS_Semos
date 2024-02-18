@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cities</title>
+  </head>
+  <body>
+    <h2>Cities</h2>
+    <%- include('partials/headers') %>
+    <table border="1" width="100%">
+      <tr>
+        <th>Name</th>
+        <th>State</th>
+        <th>Delete</th>
+      </tr>
+      <% data.forEach((city, i) => { %>
+      <tr>
+        <td><%= city.name %></td>
+        <td><%= city.state %></td>
+        <td><a href="/cityDelete/<%= i %>">Delete</a></td>
+      </tr>
+      <% }); %>
+    </table>
+  </body>
+</html>
