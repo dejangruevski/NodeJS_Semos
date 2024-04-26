@@ -1,0 +1,32 @@
+Што е World Wide Web?
+- kolekcija na dokumenti (informacii / resursi) koi mozat da se pristapat preku hiperlinkovi (preku HTTP protokol)
+
+Какви пораки се испраќаат преку HTTP помеѓу клиентот и серверот?
+-baranje (HTTP request) i odgovor (HTTP response)
+
+Што е Node.js, а што Express.js?
+-Node.js e runtime za kreiranje na aplikacii bazirani na JavaScript, a Express e modul (biblioteka) za Node.js za kreiranje web app i API
+
+Што е MVC архитектура и што е обврската на нејзините составни делови?
+-MVC=model,view,controller - model=podatocite so/vrz koi operira aplikacijata, view=se grizi za predstavata na podatocite i aplikacijata vizuelno, controller=se grizi za logikata na aplikacijata i za kontrolata vrz view i model
+
+Што се рути?
+-del od patekata na hyperlinkot 
+
+Што се модули? (бонус: какви типови на модули има?)
+-ekstenzii (biblioteki) za dadena platforma, ima vgradeni i dopolnitelni moduli
+
+Што е веб сервис? Дадете пример за еден веб сервис.
+-aplikacija do koja sto moze da se pristapi preku internet, a ima strogo definiran set na funkcii (API) i dava odreden vid na funkcionalnost
+
+Објаснете што е и како функционира JWT автентикација?
+-JsonWebToken e eden vid na standard za verifikacija / avtentikacija baziran na tokeni. Tokenite se potpisani a sodrzinata na tie tokeni sodrzi nekoj tip na podatok (claim) koj moze da bide potvrden ili od serverot ili od klientot.
+
+Што е MongoDB? Објаснете накратко за каков софтвер станува збор?
+- Baza na podatoci bazirana na dokumenti (moze da cuva strukturirani i nestrukturirani podatoci za razlika od SQL)
+
+Што е разликата помеѓу MongoDB и Mongoose?
+-Za razlika od MongoDB kaj sto mozat da se cuvaat nestrukturirani podatoci/dokumenti, Mongoose e extenzija na MongoDB so koja sto moze da se modeliraat strogo definirani semi i tipovi na podatoci koi ke se zacuvuvaat vo bazata
+
+Што е разликата помеѓу Synchronous (Сихрона) i Аsynchronous (Асинхрона) функција во Node.js
+- Sinhrinata znaci deka kodot ke ceka dodeka sinhronata funkcija zavrsi, Asinhronata znaci deka kodot ke prodolci da se izvrsuva paralelno so asinhronata funkcija
